@@ -28,9 +28,9 @@ npx tailwindcss init -p
     <title>Vite-Tailwind</title>
   </head>
   <body>
-    <div class="mt-4 text-center">
+    <div class="flex h-screen w-screen flex-col items-center justify-center bg-slate-900 text-xl text-white">
       <p>Here is</p>
-      <a class="underline" href="https://tailwindcss.com/docs/text-align">tailwindcss docs</a>
+      <a class="text-sky-500 underline" href="https://tailwindcss.com/docs/text-align">tailwindcss docs</a>
       <p>for you.</p>
       <script type="module" src="/main.js"></script>
     </div>
