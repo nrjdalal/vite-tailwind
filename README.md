@@ -1,12 +1,12 @@
-- Create a folder and open terminal in it.
-- Type the follwing command in the terminal of that folder -
+1. Create a folder and open terminal in it.
+2. Type the follwing command in the terminal of that folder -
 
 ```
 npm init vite .
 ```
 
-- Enter any package name e.g. vite-tailwind, select framework and variant as "vanilla".
-- Run the following commands -
+3. Enter any package name e.g. vite-tailwind, select framework and variant as "vanilla".
+4. Run the following commands -
 
 ```
 npm install -D tailwindcss postcss autoprefixer prettier prettier-plugin-tailwindcss
@@ -16,7 +16,7 @@ npm install -D tailwindcss postcss autoprefixer prettier prettier-plugin-tailwin
 npx tailwindcss init -p
 ```
 
-- Edit the following file 'style.css' and replace all existing code with -
+5. Edit the following file 'style.css' and replace all existing code with -
 
 ```css
 @tailwind base;
@@ -24,7 +24,7 @@ npx tailwindcss init -p
 @tailwind utilities;
 ```
 
-- Edit the following file 'tailwind.config.js' and replace all existing code with -
+6. Edit the following file 'tailwind.config.js' and replace all existing code with -
 
 ```js
 module.exports = {
@@ -36,7 +36,7 @@ module.exports = {
 }
 ```
 
-- Edit the following file 'index.html' and replace all existing code with -
+7. Edit the following file 'index.html' and replace all existing code with -
 
 ```html
 <!DOCTYPE html>
@@ -58,7 +58,7 @@ module.exports = {
 </html>
 ```
 
-- Now run the project via -
+8. Now run the project via -
 
 ```
 npm run dev
