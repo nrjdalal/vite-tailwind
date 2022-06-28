@@ -25,7 +25,7 @@ npx tailwindcss init -p
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite-Tailwind</title>
+    <title>Vite-Tailwind App</title>
   </head>
   <body>
     <div class="flex h-screen w-screen flex-col items-center justify-center bg-slate-900 text-xl text-white">
