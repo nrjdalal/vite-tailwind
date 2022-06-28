@@ -32,6 +32,7 @@ npx tailwindcss init -p
       <p>Here is</p>
       <a class="text-sky-500 underline" href="https://tailwindcss.com/docs/text-align">tailwindcss docs</a>
       <p>for you.</p>
+
       <script type="module" src="/main.js"></script>
     </div>
   </body>
