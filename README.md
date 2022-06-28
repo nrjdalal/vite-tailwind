@@ -30,9 +30,9 @@ npx tailwindcss init -p
   </head>
   <body>
     <div class="mt-4 text-center">
-      Here is
+      <p>Here is</p>
       <a class="underline" href="https://tailwindcss.com/docs/text-align">tailwindcss docs</a>
-      for you.
+      <p>for you.</p>
     </div>
   </body>
 </html>
