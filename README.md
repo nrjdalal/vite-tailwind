@@ -16,27 +16,7 @@ npm install -D tailwindcss postcss autoprefixer prettier prettier-plugin-tailwin
 npx tailwindcss init -p
 ```
 
-5. Edit the following file 'style.css' and replace all existing code with -
-
-```css
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-```
-
-6. Edit the following file 'tailwind.config.js' and replace all existing code with -
-
-```js
-module.exports = {
-  content: ['./**/*.html'],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}
-```
-
-7. Edit the following file 'index.html' and replace all existing code with -
+5. Edit the following file 'index.html' and replace all existing code with -
 
 ```html
 <!DOCTYPE html>
@@ -58,7 +38,27 @@ module.exports = {
 </html>
 ```
 
-8. Now run the project via -
+6. Edit the following file 'style.css' and replace all existing code with -
+
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+7. Edit the following file 'tailwind.config.js' and replace all existing code with -
+
+```js
+module.exports = {
+  content: ['./**/*.html'],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
+
+8. Finally delete "main.js" and run the project via -
 
 ```
 npm run dev
